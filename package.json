@@ -1,11 +1,11 @@
 {
-    "name": "nodebb-plugin-extended-markdown",
-    "version": "1.3.0",
+    "name": "nodebb-plugin-extended-markdown-cabane-libre",
+    "version": "1.0",
     "description": "A NodeBB plugin to add some bb code, as tooltip, anchor, custom text header with background, etc. ",
     "main": "library.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MinecraftForgeFrance/nodebb-plugin-extended-markdown.git"
+        "url": "git+https://github.com/TheWorms/nodebb-plugin-extended-markdown-cabane-libre.git"
     },
     "keywords": [
         "nodebb",
@@ -26,16 +26,20 @@
             "name": "Phenix246",
             "email": "phenix246.dev@gmail.com"
         }
+        {
+            "name": "TheWorms",
+            "email": "theworms@theworms.fr"
+        }
     ],
     "license": "BSD-2-Clause",
     "bugs": {
-        "url": "https://github.com/MinecraftForgeFrance/nodebb-plugin-extended-markdown/issues"
+        "url": "https://github.com/TheWorms/nodebb-plugin-extended-markdown-cabane-libre/issues"
     },
-    "homepage": "https://github.com/MinecraftForgeFrance/nodebb-plugin-extended-markdown#readme",
+    "homepage": "https://github.com/TheWorms/nodebb-plugin-extended-markdown-cabane-libre#readme",
     "nbbpm": {
         "compatibility": "^1.11.0"
     },
     "peerDependencies": {
-        "nodebb-plugin-markdown": "~8.4"
+        "nodebb-plugin-markdown": "~8.8"
     }
 }
